@@ -5,7 +5,7 @@ import Footers from './footers';
 class Home extends Component {
   render() {
     return (
-      <div id="main">
+      <>
         <Header />
         {/* <!-- ======= Hero Section ======= --> */}
         <section id="hero" className="d-flex align-items-center">
@@ -111,7 +111,7 @@ class Home extends Component {
 
         {/* <!-- ======= Footer ======= --> */}
         <Footers />
-      </div>
+      </>
     );
   }
 }

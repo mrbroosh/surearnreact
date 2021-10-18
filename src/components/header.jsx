@@ -16,7 +16,7 @@ class Header extends Component {
 
         <nav id="navbar" className="navbar">
           <ul>
-            <li><a className="nav-link scrollto active" href="#hero">Home</a></li>
+            {/* <li><a className="nav-link scrollto active" href="#hero">Home</a></li> */}
            
 
 
@@ -29,7 +29,7 @@ class Header extends Component {
                 
               </ul>
             </li>
-            <li><a className="nav-link scrollto" href="#contact">Contact</a></li>
+            <li><a className="nav-link scrollto" href="#contact">login</a></li>
             <li><a className="getstarted scrollto" href="#about">Mpesa No: 9139603</a></li>
           </ul>
           <i className="bi bi-list mobile-nav-toggle"></i>
